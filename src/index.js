@@ -1,6 +1,6 @@
 
-import { Character } from "./class/character.mjs";
-import { Team } from "./class/set.mjs";
+import { Character } from "./class/character.js";
+import { Team } from "./class/set.js";
 
 
 const Bowman = new Character('Лучник', 'Bowman', 25, 25);

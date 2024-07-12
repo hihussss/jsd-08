@@ -12,8 +12,11 @@
         
     }
 
-    addAll(...players){
-        this.members.add(...players);
+    addAll(){
+        for (let player of arguments){
+            this.members.add(player);
+        }
+        
     }
 
     toArray(){
